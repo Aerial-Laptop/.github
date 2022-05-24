@@ -21,8 +21,10 @@
 <p align="center"><a href="https://github.com/Aerial-Laptop/YourBot">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Aerial-Laptop&repo=YourBot&theme=github_dark" />
 </a></p>
-  
----
+<hr>
+<h3 align="center">General Setup Instructions</h3>
+<h4 align="center"><a href="https://github.com/Aerial-Laptop/.github/blob/main/al-docs/NODEJS-SETUP.md">NodeJS</a></h4>
+<hr>
 <h3 align="center"><b>🏳️‍🌈🏳️‍⚧️🇺🇦</b></h3>
 <h6 align="center">We support LGBTQ.* rights.</h6>
 <h5 align="center">Contributors and team members are expected to follow the <a href="https://www.contributor-covenant.org">Contributor Covenant</a>.</h5>
