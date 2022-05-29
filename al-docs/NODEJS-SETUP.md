@@ -10,13 +10,15 @@ Clone Codebase
 
 Configure
 ---
-Depending on the project, it may have a configuration folder or file.
+Depending on the project, it may have a configuration JSON file or dotenv.[^2]
 
-If `config.json`: *Open the configuration file and set all described parameters inside.*
+**If `config.json` or `config/` directory:**
 
-If `config/`: *Enter directory and for each configuration file, set all described parameters inside.*
+*Open the configuration file or directory and set all described parameters inside the JSON file(s).*
 
-**Additional configuration may be required for your use case.** [^2]
+**If `.env.example`:**
+
+*Run the command `mv .env.example .env` to use the example configuration. Then open .env and set your parameters (ex. `nano .env`).*
 
 Run
 ---
@@ -29,5 +31,5 @@ It is highly recommended that you install [PM2 by Keymetrics](https://pm2.keymet
 `pm2 start main.js` [^3]
 
 [^1]: The repository placeholder indicates the repository you want to clone. For example, a full command for cloning **Filing Saucer** would be `git clone https://github.com/Aerial-Laptop/Filing-Saucer.git`.
-[^2]: Additional configuration includes items such as changing a splash screen or adding a content copyright notice.
+[^2]: Additional configuration may be required for your use case including items such as changing a splash screen or adding a content copyright notice.
 [^3]: It is recommended to use the argument *name* when starting a process with PM2. This is done by appending it to the command to create `pm2 start main.js --name <codebase/instance name>`.
